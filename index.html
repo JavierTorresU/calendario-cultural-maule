@@ -505,6 +505,16 @@ aside.cal-side p { font-size: 14px; color: var(--muted); margin: 0 0 12px; }
   margin-bottom: 8px;
   font-size: 15px;
 }
+.avatar-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid var(--blue-soft);
+  margin: 0 auto 10px;
+  display: block;
+}
 .member b { display: block; font-size: 15px; color: var(--text); }
 .member small { color: var(--muted); font-size: 12px; }
 
@@ -933,7 +943,7 @@ footer a:hover { text-decoration: underline; }
       <span class="tag">07 · Equipo Ejecutor y Guía Académica</span>
       <h2>Responsables del Proyecto</h2>
       <p class="lead" style="margin-bottom: 20px;">
-        Iniciativa desarrollada en el marco de innovación social y vinculación territorial en Talca (2026), en colaboración directa con el Centro Cultural El Espacio.
+        Iniciativa interdisciplinaria desarrollada en Talca (2026) desde la carrera de Trabajo Social junto a colaboradores invitados de otras áreas de la Universidad Autónoma de Chile y el Centro Cultural El Espacio.
       </p>
 
       <!-- PROFESOR GUÍA -->
@@ -948,32 +958,57 @@ footer a:hover { text-decoration: underline; }
         </div>
       </div>
 
-      <!-- ESTUDIANTES INTEGRANTES -->
+      <!-- INTEGRANTES DE TRABAJO SOCIAL (CON FOTO TIPO CARNET) -->
+      <h3 style="margin: 24px 0 12px; font-size: 17px; color: var(--blue);">Equipo de Trabajo Social</h3>
       <div class="team-grid">
         <div class="member">
-          <div class="avatar">MB</div>
-          <b>Marcos Becerra Toro</b>
-          <small>Investigación y Diseño Territorial</small>
+          <img class="avatar-photo" src="foto-javier-torres.jpg" alt="Javier Enrique Torres Urbina" onerror="this.outerHTML='<div class=\'avatar\'>JT</div>'">
+          <b>Javier Enrique Torres Urbina</b>
         </div>
         <div class="member">
-          <div class="avatar">JT</div>
-          <b>Javier Torres Urbina</b>
-          <small>Sistematización y Desarrollo Web</small>
+          <img class="avatar-photo" src="foto-juan-pablo.jpg" alt="Juan Pablo Castro Rojas" onerror="this.outerHTML='<div class=\'avatar\'>JC</div>'">
+          <b>Juan Pablo Castro Rojas</b>
         </div>
         <div class="member">
-          <div class="avatar">AA</div>
-          <b>Álvaro Araya Ramos</b>
-          <small>Diagnóstico y Vinculación</small>
+          <img class="avatar-photo" src="foto-alessandro.jpg" alt="Alessandro Enrique González Ortiz" onerror="this.outerHTML='<div class=\'avatar\'>AG</div>'">
+          <b>Alessandro Enrique González Ortiz</b>
         </div>
         <div class="member">
-          <div class="avatar">JC</div>
-          <b>Juan Pablo Castro</b>
-          <small>Análisis de Ecosistema Cultural</small>
+          <img class="avatar-photo" src="foto-fabian.jpg" alt="Fabián Ignacio Vitar Caro" onerror="this.outerHTML='<div class=\'avatar\'>FV</div>'">
+          <b>Fabián Ignacio Vitar Caro</b>
         </div>
         <div class="member">
-          <div class="avatar">AG</div>
-          <b>Alessandro González Ortiz</b>
-          <small>Validación Comunitaria</small>
+          <img class="avatar-photo" src="foto-marco.jpg" alt="Marco Becerra Toro" onerror="this.outerHTML='<div class=\'avatar\'>MB</div>'">
+          <b>Marco Becerra Toro</b>
+        </div>
+        <div class="member">
+          <img class="avatar-photo" src="foto-javier-mancilla.jpg" alt="Javier Mancilla" onerror="this.outerHTML='<div class=\'avatar\'>JM</div>'">
+          <b>Javier Mancilla</b>
+        </div>
+      </div>
+
+      <!-- MIEMBROS INVITADOS DE OTRAS ÁREAS -->
+      <h3 style="margin: 28px 0 12px; font-size: 17px; color: var(--blue);">Invitados de otras áreas</h3>
+      <div class="team-grid">
+        <div class="member">
+          <div class="avatar">VP</div>
+          <b>Valeska Paulette</b>
+          <small>Psicología UA</small>
+        </div>
+        <div class="member">
+          <div class="avatar">AM</div>
+          <b>Andrés Muñoz</b>
+          <small>Arquitectura UA</small>
+        </div>
+        <div class="member">
+          <div class="avatar">BV</div>
+          <b>Benjamín Varas</b>
+          <small>Auditoría UA</small>
+        </div>
+        <div class="member">
+          <div class="avatar">BZ</div>
+          <b>Benjamín Zoto</b>
+          <small>Colaborador invitado</small>
         </div>
       </div>
     </div>
